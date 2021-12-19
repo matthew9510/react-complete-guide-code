@@ -4,6 +4,15 @@
 
 # dependencies
 /node_modules
+code/react-vs-vanilla-js-example/
+code/01-starting-setup/.eslintcache
+code/01-starting-setup/node_modules/
+code/03-writing-more-complex-jsx-code/node_modules/
+code/03-writing-more-complex-jsx-code/yarn.lock
+code/09-assignment-1-matts-solution/.eslintcache
+code/09-assignment-1-matts-solution/yarn.lock
+code/09-assignment-1-matts-solution/node_modules/
+
 /.pnp
 .pnp.js
 
