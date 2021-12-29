@@ -6,6 +6,9 @@
 /node_modules
 /.pnp
 .pnp.js
+/code/02-adding-form-inputs/node_modules
+/code/02-adding-form-inputs/yarn.lock
+/code/02-adding-form-inputs/.eslintcache
 
 # testing
 /coverage
