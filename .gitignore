@@ -12,6 +12,8 @@ code/03-writing-more-complex-jsx-code/yarn.lock
 code/09-assignment-1-matts-solution/.eslintcache
 code/09-assignment-1-matts-solution/yarn.lock
 code/09-assignment-1-matts-solution/node_modules/
+code/11-finished/node_modules/
+code/11-finished/package-lock.json
 
 /.pnp
 .pnp.js
