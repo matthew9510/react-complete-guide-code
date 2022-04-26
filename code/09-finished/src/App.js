@@ -2,7 +2,7 @@ import React from 'react';
 
 import NewExpense from './components/NewExpense/NewExpense';
 import Expenses from './components/Expenses/Expenses';
-
+// Note index.css acts as App's style
 const App = () => {
   const expenses = [
     {
@@ -26,6 +26,7 @@ const App = () => {
     },
   ];
 
+  // Highest level handler just prints the new expense
   const addExpenseHandler = expense => {
     console.log('In App.js');
     console.log(expense);

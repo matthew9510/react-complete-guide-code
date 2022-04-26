@@ -1,9 +1,20 @@
+/* This is the point where you will create your container (div) attributes
+this is also where we should style inner common elements
+*/
+
+/* 
+Content - The content of the box, where text and images appear
+Padding - Clears an area around the content. The padding is transparent
+Border - A border that goes around the padding and content
+Margin - Clears an area outside the border. The margin is transparent
+*/
+
 .new-expense {
   background-color: #a892ee;
   padding: 1rem;
-  margin: 2rem auto;
-  width: 50rem;
-  max-width: 95%;
+  margin: 2rem auto; /* 2 units up and down and center in left and right axis */
+  width: 50rem; /* what we want at max size */
+  max-width: 95%; /* how we show for smaller devices */
   border-radius: 12px;
   text-align: center;
   box-shadow: 0 1px 8px rgba(0, 0, 0, 0.25);
@@ -15,9 +26,9 @@
   padding: 1rem 2rem;
   border: 1px solid #40005d;
   background-color: #40005d;
-  color: white;
+  color: white; /* color of font */
   border-radius: 12px;
-  margin-right: 1rem;
+  margin-right: 1rem; /*shift button over a tad */
 }
 
 .new-expense button:hover,

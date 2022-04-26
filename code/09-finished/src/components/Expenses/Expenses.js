@@ -14,6 +14,7 @@ const Expenses = (props) => {
 
   return (
     <div>
+      {/* card adds the card style plus any other classes attached to the card invocation */}
       <Card className='expenses'>
         <ExpensesFilter selected={filteredYear} onChangeFilter={filterChangeHandler} />
         <ExpenseItem

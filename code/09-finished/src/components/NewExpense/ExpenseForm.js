@@ -40,7 +40,7 @@ const ExpenseForm = (props) => {
   };
 
   const submitHandler = (event) => {
-    event.preventDefault();
+    event.preventDefault(); // prevents state from being wiped, along with a refresh
 
     const expenseData = {
       title: enteredTitle,
@@ -48,7 +48,7 @@ const ExpenseForm = (props) => {
       date: new Date(enteredDate),
     };
 
-    props.onSaveExpenseData(expenseData);
+    props.onSaveExpenseData(expenseData); // passes data up to this parent component the NewExpense comp 
     setEnteredTitle('');
     setEnteredAmount('');
     setEnteredDate('');

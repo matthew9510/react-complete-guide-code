@@ -9,7 +9,7 @@
 .new-expense__control label {
   font-weight: bold;
   margin-bottom: 0.5rem;
-  display: block;
+  display: block; /* Displays an element as a block element (like <p>). It starts on a new line, and takes up the whole width; https://www.w3schools.com/cssref/pr_class_display.asp*/
 }
 
 .new-expense__control input {
