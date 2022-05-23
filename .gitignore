@@ -9,6 +9,7 @@
 /code/02-adding-form-inputs/node_modules
 /code/02-adding-form-inputs/yarn.lock
 /code/02-adding-form-inputs/.eslintcache
+/code/09-finished/node_modules/
 
 # testing
 /coverage
